@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461120B81D11892200D8BEEA /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461120B41D11892200D8BEEA /* Student+CoreDataProperties.swift */; };
+		461120B91D11892200D8BEEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461120B51D11892200D8BEEA /* Student.swift */; };
+		461120BA1D11892200D8BEEA /* Specialization+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461120B61D11892200D8BEEA /* Specialization+CoreDataProperties.swift */; };
+		461120BB1D11892200D8BEEA /* Specialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461120B71D11892200D8BEEA /* Specialization.swift */; };
+		462E63FE1D0992170087A1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E63FD1D0992170087A1B7 /* AppDelegate.swift */; };
+		462E64001D0992170087A1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E63FF1D0992170087A1B7 /* ViewController.swift */; };
+		462E64031D0992170087A1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462E64011D0992170087A1B7 /* Main.storyboard */; };
+		462E64061D0992170087A1B7 /* EnrollMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 462E64041D0992170087A1B7 /* EnrollMe.xcdatamodeld */; };
+		462E64081D0992170087A1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462E64071D0992170087A1B7 /* Assets.xcassets */; };
+		462E640B1D0992170087A1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462E64091D0992170087A1B7 /* LaunchScreen.storyboard */; };
+		462E641E1D099C0E0087A1B7 /* SpecializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E641D1D099C0E0087A1B7 /* SpecializationViewController.swift */; };
+		462E64201D099C570087A1B7 /* EditStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E641F1D099C570087A1B7 /* EditStudentViewController.swift */; };
+		46E55F8F1D1D51250001D532 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E55F8C1D1D51250001D532 /* KaedeTextField.swift */; };
+		46E55F901D1D51250001D532 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E55F8D1D1D51250001D532 /* TextFieldsEffects.swift */; };
+		46E55F921D1D514B0001D532 /* ColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E55F911D1D514B0001D532 /* ColorUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461120B41D11892200D8BEEA /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		461120B51D11892200D8BEEA /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		461120B61D11892200D8BEEA /* Specialization+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Specialization+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		461120B71D11892200D8BEEA /* Specialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specialization.swift; sourceTree = "<group>"; };
+		462E63FA1D0992170087A1B7 /* EnrollMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnrollMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462E63FD1D0992170087A1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462E63FF1D0992170087A1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		462E64021D0992170087A1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462E64051D0992170087A1B7 /* EnrollMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnrollMe.xcdatamodel; sourceTree = "<group>"; };
+		462E64071D0992170087A1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462E640A1D0992170087A1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462E640C1D0992170087A1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462E641D1D099C0E0087A1B7 /* SpecializationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecializationViewController.swift; sourceTree = "<group>"; };
+		462E641F1D099C570087A1B7 /* EditStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditStudentViewController.swift; sourceTree = "<group>"; };
+		46E55F8C1D1D51250001D532 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		46E55F8D1D1D51250001D532 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
+		46E55F8E1D1D51250001D532 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		46E55F911D1D514B0001D532 /* ColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462E63F71D0992170087A1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462E63F11D0992170087A1B7 = {
+			isa = PBXGroup;
+			children = (
+				462E63FC1D0992170087A1B7 /* EnrollMe */,
+				462E63FB1D0992170087A1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462E63FB1D0992170087A1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462E63FA1D0992170087A1B7 /* EnrollMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462E63FC1D0992170087A1B7 /* EnrollMe */ = {
+			isa = PBXGroup;
+			children = (
+				462E641A1D0993650087A1B7 /* Model */,
+				462E641C1D0993780087A1B7 /* View */,
+				462E641B1D0993710087A1B7 /* Controller */,
+				462E64071D0992170087A1B7 /* Assets.xcassets */,
+				462E640C1D0992170087A1B7 /* Info.plist */,
+				462E64041D0992170087A1B7 /* EnrollMe.xcdatamodeld */,
+			);
+			path = EnrollMe;
+			sourceTree = "<group>";
+		};
+		462E641A1D0993650087A1B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				461120B41D11892200D8BEEA /* Student+CoreDataProperties.swift */,
+				461120B51D11892200D8BEEA /* Student.swift */,
+				461120B61D11892200D8BEEA /* Specialization+CoreDataProperties.swift */,
+				461120B71D11892200D8BEEA /* Specialization.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		462E641B1D0993710087A1B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46E55F931D1D52DE0001D532 /* Utility */,
+				462E63FD1D0992170087A1B7 /* AppDelegate.swift */,
+				462E63FF1D0992170087A1B7 /* ViewController.swift */,
+				462E641F1D099C570087A1B7 /* EditStudentViewController.swift */,
+				462E641D1D099C0E0087A1B7 /* SpecializationViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		462E641C1D0993780087A1B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				462E64011D0992170087A1B7 /* Main.storyboard */,
+				462E64091D0992170087A1B7 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46E55F931D1D52DE0001D532 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				46E55F911D1D514B0001D532 /* ColorUtility.swift */,
+				46E55F8C1D1D51250001D532 /* KaedeTextField.swift */,
+				46E55F8D1D1D51250001D532 /* TextFieldsEffects.swift */,
+				46E55F8E1D1D51250001D532 /* TextFieldEffects.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462E63F91D0992170087A1B7 /* EnrollMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462E640F1D0992170087A1B7 /* Build configuration list for PBXNativeTarget "EnrollMe" */;
+			buildPhases = (
+				462E63F61D0992170087A1B7 /* Sources */,
+				462E63F71D0992170087A1B7 /* Frameworks */,
+				462E63F81D0992170087A1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnrollMe;
+			productName = EnrollMe;
+			productReference = 462E63FA1D0992170087A1B7 /* EnrollMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462E63F21D0992170087A1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Abhishek Dwivedi";
+				TargetAttributes = {
+					462E63F91D0992170087A1B7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 462E63F51D0992170087A1B7 /* Build configuration list for PBXProject "EnrollMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462E63F11D0992170087A1B7;
+			productRefGroup = 462E63FB1D0992170087A1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462E63F91D0992170087A1B7 /* EnrollMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462E63F81D0992170087A1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462E640B1D0992170087A1B7 /* LaunchScreen.storyboard in Resources */,
+				462E64081D0992170087A1B7 /* Assets.xcassets in Resources */,
+				462E64031D0992170087A1B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462E63F61D0992170087A1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461120B81D11892200D8BEEA /* Student+CoreDataProperties.swift in Sources */,
+				462E64201D099C570087A1B7 /* EditStudentViewController.swift in Sources */,
+				461120BB1D11892200D8BEEA /* Specialization.swift in Sources */,
+				462E64061D0992170087A1B7 /* EnrollMe.xcdatamodeld in Sources */,
+				462E64001D0992170087A1B7 /* ViewController.swift in Sources */,
+				46E55F901D1D51250001D532 /* TextFieldsEffects.swift in Sources */,
+				461120BA1D11892200D8BEEA /* Specialization+CoreDataProperties.swift in Sources */,
+				46E55F8F1D1D51250001D532 /* KaedeTextField.swift in Sources */,
+				46E55F921D1D514B0001D532 /* ColorUtility.swift in Sources */,
+				462E63FE1D0992170087A1B7 /* AppDelegate.swift in Sources */,
+				461120B91D11892200D8BEEA /* Student.swift in Sources */,
+				462E641E1D099C0E0087A1B7 /* SpecializationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462E64011D0992170087A1B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462E64021D0992170087A1B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462E64091D0992170087A1B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462E640A1D0992170087A1B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462E640D1D0992170087A1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		462E640E1D0992170087A1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462E64101D0992170087A1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnrollMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AbhishekDwivedi.EnrollMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		462E64111D0992170087A1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnrollMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AbhishekDwivedi.EnrollMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462E63F51D0992170087A1B7 /* Build configuration list for PBXProject "EnrollMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462E640D1D0992170087A1B7 /* Debug */,
+				462E640E1D0992170087A1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462E640F1D0992170087A1B7 /* Build configuration list for PBXNativeTarget "EnrollMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462E64101D0992170087A1B7 /* Debug */,
+				462E64111D0992170087A1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		462E64041D0992170087A1B7 /* EnrollMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				462E64051D0992170087A1B7 /* EnrollMe.xcdatamodel */,
+			);
+			currentVersion = 462E64051D0992170087A1B7 /* EnrollMe.xcdatamodel */;
+			path = EnrollMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 462E63F21D0992170087A1B7 /* Project object */;
+}

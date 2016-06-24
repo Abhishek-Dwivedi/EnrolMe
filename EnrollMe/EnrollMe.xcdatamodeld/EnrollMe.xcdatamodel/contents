@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Specialization" representedClassName=".Specialization" syncable="YES">
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="specialization" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rollNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="specialization" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Specialization" inverseName="students" inverseEntity="Specialization" syncable="YES"/>
+    </entity>
+    <fetchRequest name="fetchComputerScStudents" entity="Specialization" predicateString="subject == &quot;Computer Sc.&quot;"/>
+    <fetchRequest name="fetchStudents" entity="Student" predicateString="rollNumber BEGINSWITH &quot;A&quot;"/>
+    <elements>
+        <element name="Specialization" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="Student" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
